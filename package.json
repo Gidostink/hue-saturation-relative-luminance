@@ -1,6 +1,6 @@
 {
 	"name": "hue-saturation-relative-luminance",
-	"version": "0.2.0",
+	"version": "0.2.1",
 	"description": "Allows you to control Hue, Saturation, and Relative Luminance as if it where a color space. Inputs are the Hue, Saturation, and Relative Luminance of a color, and output is an array of RGB values ranging from 0 to 1, 0 to 255, and a string containing the hex code.",
 	"main": "./lib/index.js",
 	"types": "./lib/index.d.ts",
@@ -9,7 +9,7 @@
 		"test": "npx jest"
 	},
 	"author": "Gidostink",
-	"license": "ISC",
+	"license": "MIT",
 	"type": "module",
 	"keywords": [
 		"WCAG",
