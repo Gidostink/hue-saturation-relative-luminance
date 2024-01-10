@@ -136,4 +136,7 @@ let result = increaseContrastIfLow(originalHue, originalSaturation)
 
 console.log(result.hex) // '#00ffff'
 //This is perfect to insert into the style data of our web app.
-``` 
+```
+
+## Issues
+If you find any bugs, problems, or ways to improve this package, consider [creating an issue on GitHub](https://github.com/Gidostink/hue-saturation-relative-luminance/issues). I'll be happy to help!
