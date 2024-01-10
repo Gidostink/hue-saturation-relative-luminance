@@ -1,0 +1,35 @@
+{
+	"name": "hue-saturation-relative-luminance",
+	"version": "0.2.0",
+	"description": "Allows you to control Hue, Saturation, and Relative Luminance as if it where a color space. Inputs are the Hue, Saturation, and Relative Luminance of a color, and output is an array of RGB values ranging from 0 to 1, 0 to 255, and a string containing the hex code.",
+	"main": "./lib/index.js",
+	"types": "./lib/index.d.ts",
+	"scripts": {
+		"build": "tsc",
+		"test": "npx jest"
+	},
+	"author": "Gidostink",
+	"license": "ISC",
+	"type": "module",
+	"keywords": [
+		"WCAG",
+		"contrast",
+		"luminance",
+		"relative luminance",
+		"color",
+		"hex",
+		"RGB",
+		"SRGB"
+	],
+	"files": [
+		"/lib/"
+	],
+	"devDependencies": {
+		"@babel/core": "^7.23.5",
+		"@babel/preset-env": "^7.23.5",
+		"@types/jest": "^29.5.10",
+		"babel-jest": "^29.7.0",
+		"jest": "^29.7.0",
+		"typescript": "^5.3.2"
+	}
+}
